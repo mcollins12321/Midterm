@@ -4,17 +4,17 @@ import java.util.Date;
 
 public class Staff extends Employee {
 
-	 private String Title;
+	 private String eTitle;
 
 	   public Staff(String title){
-	        this.Title = title;
+	        this.eTitle = title;
 	    }
 
 	    public void setTitle(String title){
-	        this.Title = title;
+	        this.eTitle = title;
 	    }
 	    public String getTitle(){
-	        return this.Title;
+	        return this.eTitle;
 	    }
 
     
@@ -29,7 +29,7 @@ public class Staff extends Employee {
 		super(FirstName, MiddleName, LastName, DOB, Address, Phone_number,
 				Email, officeHours, salary, hireDate);
 		
-		this.Title = Title;
+		this.eTitle = eTitle;
 	}
 
 }
